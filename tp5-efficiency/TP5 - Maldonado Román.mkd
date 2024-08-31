@@ -1,0 +1,118 @@
+# Ejercicio 6
+## Seccion 1
+
+### Ejercicio A:
+- Linea 1: 1 + N -> (Bucle For)
+- Linea 2: N -> (Condicional)
+- Linea 3: 0.5N -> (Print)
+Sumatoria -> 2,5N + 1 => O(N) -> Lineal
+
+### Ejercicio B:
+- Linea 1: 1 + N -> (Bucle For)
+- Linea 2: N -> (Condicional)
+- Linea 3: 0.5N -> (Print)
+- Linea 4: 1 + N -> (Bucle For)
+- Linea 5: N -> (Condicional)
+- Linea 6: 0.5N -> (Print)
+Sumatoria -> 5N + 2 => O(N) -> Lineal
+
+### Ejercicio C:
+- Linea 1: 1 + N -> (Bucle For)
+- Linea 2: 1 + N^2 -> (Bucle For)
+- Linea 3: N^2 -> (Print)
+Sumatoria -> 2N^2 + N + 2 => O(N^2) -> Cuadratico
+
+### Ejercicio D:
+- Linea 1: 1 + A -> (Bucle For)
+- Linea 2: 1 + B * A -> (Bucle For)
+- Linea 3: B * A -> (Print)
+Sumatoria -> 2 * A * B + 2 => O(A * B) ->
+
+### Ejercicio E:
+- Linea 1: 1 -> (Asignación)
+- Linea 2: log(N) -> (Bucle While)
+- Linea 3: log(N) -> (Print)
+- Linea 4: log(N) -> (Asignación)
+Sumatoria -> 1 + 3log(N) = O(log(N)) -> Logaritmico
+
+### Ejercicio F:
+- Linea 1: 1 + N -> (Bucle For)
+- Linea 2: 1 -> (Asignación)
+- Linea 3: Nlog(N) -> (Bucle While)
+- Linea 4: Nlog(N) -> (Print)
+- Linea 5: Nlog(N) -> (Asignación)
+Sumatoria -> 2 + N + 3Nlog(N) = O(Nlog(N)) -> Lineal Logaritmico
+
+### Ejercico G:
+- Linea 1: 1 -> (Asignación)
+- Linea 2: 1 -> (Condicional)
+- Linea 3: 0.5 -> (Print)
+- Linea 4: 1 -> (Condicional)
+- Linea 5: 0.5 -> (Print)
+Sumatoria -> 4 => O(1) -> Constante
+
+#### TP6.2
+### Ejrcicio 1 (suma):
+- Linea 1: 1 -> (Definicion Función)
+- Linea 2: 1 -> (Return)
+Sumatoria -> 2 => O(1) -> Constante 
+
+### Ejercicio 2 (suma_lista):
+- Linea 1: 1 -> (Definicion Función)
+- Linea 2: 1 -> (Asignacion)
+- Linea 3: N -> (Bucle For)
+- Linea 4: N -> (Condicional)
+- Linea 5: 1 -> (Return)
+Sumatoria -> 3 + 2N  => 0(N), N = length(lista) => O(N) -> Lineal
+
+### Ejercicio 3 (selection_sort):
+- Linea 1: 1 -> (Definir Función)
+- Linea 2: 1 -> (Asignar)
+- Linea 3: N -> (Bucle For)
+- Linea 4: N -> (Asignar)
+- Linea 5: N^2 -> (Bucle For)
+- Linea 6: N^2 -> (Condicional) 
+- Linea 7: N^2 -> (Asignación)
+- Linea 8: N -> (Asignación)
+- Linea 9: 1 -> (Return)
+Sumatoria -> 3 + 3N + 3N^2 => O(N^2) -> Cuadratico
+
+### Ejercicio 4 (bubble_sort):
+- Linea 1: 1 -> (Definir Función)
+- Linea 2: 1 -> (Asignación)
+- Linea 3: N -> (Bucle For)
+- Linea 4: N^2 -> (Bucle For)
+- Linea 5: N^2 -> (Condicional)
+- Linea 6: N^2 -> (Asignación)
+- Linea 7: 1 -> (Return)
+Sumatoria -> 3 + N + 3N^2 => O(N^2) -> Cuadratico
+
+### Ejercicio 5 (matriz_multiplicacion):
+- Linea 1: 1 -> (Definir Función)
+- Linea 2: 1 -> (Asignación)
+- Linea 3: N -> (Bucle For)
+- Linea 4: N -> (Asignación)
+- Linea 5: N^2 -> (Bucle For)
+- Linea 6: N^2 -> (Asignación)
+- Linea 7: N^3 -> (Bucle For)
+- Linea 8: N^3 -> (Operación)
+- Linea 9: N^2 -> (Metodo)
+- Linea 10: N -> (Metodo)
+- Linea 11: 1 -> (Return) 
+Sumatoria -> 3 + 3N + 3N^2 + 2N^3 = O(N^3) -> Cubica
+
+### Ejercicio 6 (busqueda_binaria):
+- Linea 1: 1 -> (Definir Función)
+- Linea 2: 1 -> (Asignación)
+- Linea 3: 1 -> (Asignación)
+- Linea 4: log(N) -> (Bucle While)
+- Linea 5: log(N) -> ()
+- Linea 6: log(N)
+- Linea 7: log(N) -> (Condicional)
+- Linea 8: log(N) -> (Return)
+- Linea 9: log(N) -> 
+- Linea 10: log(N)
+- Linea 11: log(N)
+- Linea 12: log(N)
+- Linea 13:  1 -> (Return)
+Sumatoria -> 4 + 9log(N) -> O(log(N)) -> Logaritmico
