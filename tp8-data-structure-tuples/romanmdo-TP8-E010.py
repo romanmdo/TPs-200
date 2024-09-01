@@ -4,7 +4,7 @@
 def tuplas():
     tupla = (1, 1, 2, 3, 4, 5)
 
-    comprobacion = int(input('# Ingresa el numero para comprobar si se repite en la tupla: '))
+    comprobacion = int(input(f'# Ingresa el numero para comprobar si se repite en la tupla: '))
     counter = 0
 
     for i in range(len(tupla)):

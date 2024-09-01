@@ -2,9 +2,9 @@
 # penúltimo elemento.
 
 def tuplas():
-    tupla = (1, 2, 3, 4, 5)
+    tupla = (1, 2, 3, 4, 5, 12, 65)
     caracter2do = tupla[1]
-    caracterN = tupla[len(tupla) - 2]
+    caracterN = tupla[len(tupla) - 1]
 
     print(f'# Su tupla es: {tupla}')
     print(f'# Segundo caracter de la tupla: {caracter2do}')

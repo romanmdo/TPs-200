@@ -3,7 +3,8 @@
 
 def tuplas():
     tupla = (1, 2, 3, 4, 5)
-    print(f'# Su tupla es: {tupla}')
+    for i in tupla:
+        print(f'# Elemento: {i}')
 
 if __name__ == '__main__':
     tuplas()
