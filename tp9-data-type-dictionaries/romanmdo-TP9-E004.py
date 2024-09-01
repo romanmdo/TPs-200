@@ -2,16 +2,21 @@
 # grado, edad). Luego, permite al usuario actualizar la edad del estudiante.
 
 def diccionarios():
-    diccionario = {
+    estudiante = {
         'nombre' : 'Mdo',
         'edad' : '20',
         'curso' : '2do año'
     }
 
-    age = int(input('# Ingresa la edad del estudiante: '))
-    diccionario['Edad'] = age
+    print(f'# Estudiante: ')
+    for i in estudiante:
+        print(f'- {i}: {estudiante[i]}')
 
-    print(f'La nueva edad del estudiante es: {diccionario["Edad"]}')
+    age = int(input('# Ingresa la edad del estudiante: '))
+    estudiante['edad'] = age
+
+    print(f'# La nueva edad del estudiante es: {estudiante["edad"]}')
+    print(f'# Su nuevo diccionario es: {estudiante}')
 
 
 

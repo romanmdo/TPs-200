@@ -2,15 +2,15 @@
 # capitales, y muestre todas las capitales.
 
 def diccionarios():
-    diccionario = {
+    mapa_mundi = {
         'argentina' : 'Ciudad Autonoma de Bs As',
         'españa' : 'Madrid',
         'holmberg' : 'Casa Mdo'
     }
 
-    print(f'# Elementos del diccionario: ')
-    for i in diccionario:
-        print(f'- Capital: {diccionario[i]} ({i})')
+    print(f'# Capitales: ')
+    for i in mapa_mundi:
+        print(f'- Capital: {mapa_mundi[i]} ({i})')
 
 
 

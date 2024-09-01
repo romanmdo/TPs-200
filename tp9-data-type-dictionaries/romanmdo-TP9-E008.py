@@ -2,17 +2,19 @@
 # específica existe en un diccionario de datos de contacto.
 
 def diccionarios():
-    diccionario = {
+    datos = {
         'nombre' : 'mdo',
         'email' : 'mdo69@gmail.com',
         'numero' : 3584567869
     }
 
-    print(f'# Elementos del diccionario: ')
-    for i in diccionario:
-        print(f'- {i}: {diccionario[i]}')
+    opcion = input(f'# Ingresa una clave para comprobar si existe: ')
 
+    if opcion in datos:
+        print(f'# Esta clave si existe en el diccionario! ')
 
+    else: 
+        print(f'# Esta clave no existe en el diccionario! ')
 
 if __name__ == '__main__':
     diccionarios()

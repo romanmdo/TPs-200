@@ -3,15 +3,15 @@
 # imprímelo.
 
 def diccionarios():
-    diccionario = {
+    producto = {
         'nombre': 'MDO',
         'precio': 912,
         'cantidad': 5
     }
 
     print(f'# Elementos del diccionario: ')
-    for i in diccionario:
-        print(f'- {i}: {diccionario[i]}')
+    for i in producto:
+        print(f'- {i}: {producto[i]}')
 
 
 if __name__ == '__main__':
