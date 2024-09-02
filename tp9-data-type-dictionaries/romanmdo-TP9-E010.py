@@ -8,7 +8,6 @@ def average(y: list) -> int:
         resultado += x
     return resultado / len(y)
 
-
 def diccionarios():
     l1 = [1, 2, 5, 4, 10]
     l2 = [10, 7, 9, 10, 10]

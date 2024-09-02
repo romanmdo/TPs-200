@@ -8,8 +8,7 @@ def diccionarios():
         'roca' : 400
     }
 
-    diccionario_nuevo = {
-    }
+    diccionario_nuevo = {}
 
     print(f'# Entradas para el rey de la noche: ')
 

@@ -13,18 +13,13 @@ def diccionarios():
         'apellido' : 'miranda',
     }
 
-    diccionario_nuevo = {
-    }
+    diccionario_nuevo = {}
 
-    print(f'# Estudiantes: ')
+    print(f'# Nuevo diccionario: ')
 
     for i in estudiante_1:
-        pass
-    
-    
-    print(f'# Diccionario alumno 1: {estudiante_1}')
-    print(f'# Diccionario alumno 2: {estudiante_2}')
-    print(f'# Diccionario nuevo: {diccionario_nuevo}')
+        diccionario_nuevo[i] = [estudiante_1[i], estudiante_2[i]]
+        print(f'- {i}: {diccionario_nuevo[i]}')
 
 if __name__ == '__main__':
     diccionarios()
